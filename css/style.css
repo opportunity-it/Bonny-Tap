@@ -8,8 +8,13 @@ body {
   list-style: none;
 }
 
-h1,p {
+p {
   margin: 0;
+}
+
+h1{
+  margin: 0;
+  text-transform: uppercase;
 }
 
 a {
@@ -47,7 +52,6 @@ a {
 
   font-size: 23px;
 
-  text-transform: uppercase;
   text-align: center;
 
   color: #ffffff;
@@ -207,4 +211,15 @@ align-items: center;
 
 .leader-page .price{
 font-size: 12px;
+}
+
+
+
+/* STYLES OF LEARN  */
+.learn-quantity{
+  flex-direction: row-reverse;
+}
+
+.learn-size{
+  font-size: 14px;
 }
