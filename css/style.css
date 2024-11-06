@@ -12,7 +12,7 @@ p {
   margin: 0;
 }
 
-h1{
+h1,h2{
   margin: 0;
   text-transform: uppercase;
 }
@@ -222,4 +222,47 @@ font-size: 12px;
 
 .learn-size{
   font-size: 14px;
+}
+
+/* STYLES OF QUESTION-1 */
+.question-page{
+  padding-bottom: 50px;
+}
+
+.question-page .text-icon{
+  margin-bottom: 20px;
+}
+
+.question-title{
+margin-bottom: 30px;
+
+ width: 220px;height: 120px;
+
+font-size: 15px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+border-radius: 10px;
+background-color: #575151;
+
+  color: #ffffff;
+      box-shadow: 1px 3px 1px -1px rgb(86 80 80 / 75%);
+}
+
+.question-page .main-list{
+  padding: 0;
+
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.question-page .main-item{
+      box-shadow: 1px 3px 1px -1px rgb(86 80 80 / 75%)
+}
+
+.question-page .main-link{
+  font-size: 12px;
 }
