@@ -12,7 +12,8 @@ p {
   margin: 0;
 }
 
-h1,h2{
+h1,
+h2 {
   margin: 0;
   text-transform: uppercase;
 }
@@ -112,7 +113,7 @@ a {
 }
 
 .leader-page .text-icon {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 
   display: flex;
   justify-content: space-between;
@@ -121,7 +122,7 @@ margin-bottom: 10px;
 .leader-text {
   font-weight: 500;
 
-      text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.77);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.77);
   color: #ffffff;
 }
 
@@ -135,119 +136,119 @@ margin-bottom: 10px;
 
   border-radius: 50%;
   border: 2px solid #ffffff;
-      background-color: #777171;
+  background-color: #777171;
 }
 
 .leader-page .leader-icon {
   width: 100%;
   height: 100%;
 
-      stroke: white;
-    stroke-width: 3;
+  stroke: white;
+  stroke-width: 3;
 }
 
-.img-quantity{
-margin-bottom: 20px;
+.img-quantity {
+  margin-bottom: 20px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.button-position{
-padding: 6px 4px;
+.button-position {
+  padding: 6px 4px;
 
   font-weight: 500;
   font-size: 13px;
 
   color: #ffffff;
   text-transform: uppercase;
-      background-color: #f68424;
-      border-radius: 8px;
-      box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
-      cursor: pointer;
+  background-color: #f68424;
+  border-radius: 8px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
 }
 
-.leader-page .quantity{
-    font-weight: 500;
-    font-size: 19px;
+.leader-page .quantity {
+  font-weight: 500;
+  font-size: 19px;
 
   display: flex;
   align-items: center;
   gap: 5px;
 
-      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.77);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.77);
   color: #ffffff;
 }
 
-.leader-page .main-list{
-      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.77);
+.leader-page .main-list {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.77);
 }
 
-.leader-page .main-link{
-display: flex;
-align-items: center;
+.leader-page .main-link {
+  display: flex;
+  align-items: center;
 
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.leader-page .main-number{
+.leader-page .main-number {
   margin-right: 5px;
   font-size: 21px;
   font-weight: 500;
 }
 
-.leader-page .img-price{
+.leader-page .img-price {
   margin-left: auto;
 
-  display: flex;align-items: center;
+  display: flex;
+  align-items: center;
   gap: 5px;
 }
 
-.leader-page .price{
-font-size: 12px;
+.leader-page .price {
+  font-size: 12px;
 }
 
-
-
 /* STYLES OF LEARN  */
-.learn-page .img-quantity{
+.learn-page .img-quantity {
   flex-direction: row-reverse;
 }
 
-.learn-page .main-link{
+.learn-page .main-link {
   font-size: 14px;
 }
 
 /* STYLES OF QUESTION-1 */
-.question-page{
+.question-page {
   padding-bottom: 50px;
 }
 
-.question-page .text-icon{
+.question-page .text-icon {
   margin-bottom: 20px;
 }
 
-.question-title{
-margin-bottom: 30px;
+.question-title {
+  margin-bottom: 30px;
 
- width: 220px;height: 120px;
+  width: 220px;
+  height: 120px;
 
-font-size: 15px;
+  font-size: 15px;
 
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-border-radius: 10px;
-background-color: #575151;
+  border-radius: 10px;
+  background-color: #575151;
 
   color: #ffffff;
-      box-shadow: 1px 3px 1px -1px rgb(86 80 80 / 75%);
+  box-shadow: 1px 3px 1px -1px rgb(86 80 80 / 75%);
 }
 
-.question-page .main-list{
+.question-page .main-list {
   padding: 0;
 
   border-radius: 0;
@@ -255,19 +256,61 @@ background-color: #575151;
   box-shadow: none;
 }
 
-.question-page .main-item{
-      box-shadow: 1px 3px 1px -1px rgb(86 80 80 / 75%)
+.question-page .main-item {
+  box-shadow: 1px 3px 1px -1px rgb(86 80 80 / 75%);
 }
 
-.question-page .main-link{
+.question-page .main-link {
   font-size: 12px;
 }
 
 /* STYLES OF LEARN-BG  */
-.bg-page .main-item:nth-child(4){
-      background-color: #3bcb3b;
+.bg-page .main-item:nth-child(4) {
+  background-color: #3bcb3b;
 }
 
-.bg-page .bg-number{
-      background-color: #0f9d0f;
+.bg-page .bg-number {
+  background-color: #0f9d0f;
+}
+
+/* STYLES OF UPGRADES  */
+.upgrades-page{
+  padding-bottom: 60px;
+}
+
+.upgrades-page .img-quantity{
+  margin-bottom: 60px;
+}
+
+.upgrades-page .main-list{
+padding-bottom: 20px;
+}
+
+.upgrades-page .main-link{
+  font-size: 12px;
+}
+
+.upgrades-page .main-link::before {
+  content: " ";
+
+  margin-right: 5px;
+
+  display: block;
+
+      flex-shrink: 0;
+
+  width: 25px;
+  height: 25px;
+
+  background-color: #7d7575;
+  border-radius: 50%;
+}
+
+.upgrades-page .img-price{
+  max-width: 60px;
+
+font-size: 11px;
+
+    flex-wrap: wrap;
+    justify-content: center;
 }
