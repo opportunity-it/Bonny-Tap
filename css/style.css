@@ -314,3 +314,27 @@ font-size: 11px;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/* STYLES OF MISSIONS  */
+.missions-page{
+  padding-bottom: 30px;
+}
+
+.missions-page .text-icon{
+  margin-bottom: 5px;
+}
+
+.missions-page .main-link{
+ line-height: 1.4;
+}
+
+.missions-page .main-link::before{
+  width: 30px;height: 30px;
+}
+
+.missions-page .img-price{
+  max-width: none;
+  flex-wrap: nowrap;
+
+}
