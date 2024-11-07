@@ -34,8 +34,6 @@ a {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-
-  outline: 1px solid white;
 }
 
 /* STYLES OF MAIN PAGE */
@@ -274,19 +272,19 @@ a {
 }
 
 /* STYLES OF UPGRADES  */
-.upgrades-page{
+.upgrades-page {
   padding-bottom: 60px;
 }
 
-.upgrades-page .img-quantity{
+.upgrades-page .img-quantity {
   margin-bottom: 60px;
 }
 
-.upgrades-page .main-list{
-padding-bottom: 20px;
+.upgrades-page .main-list {
+  padding-bottom: 20px;
 }
 
-.upgrades-page .main-link{
+ .main-link.upgrades-link {
   font-size: 12px;
 }
 
@@ -297,7 +295,7 @@ padding-bottom: 20px;
 
   display: block;
 
-      flex-shrink: 0;
+  flex-shrink: 0;
 
   width: 25px;
   height: 25px;
@@ -306,35 +304,170 @@ padding-bottom: 20px;
   border-radius: 50%;
 }
 
-.upgrades-page .img-price{
+.upgrades-page .img-price {
   max-width: 60px;
 
-font-size: 11px;
+  font-size: 11px;
 
-    flex-wrap: wrap;
-    justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-
 /* STYLES OF MISSIONS  */
-.missions-page{
+.missions-page {
   padding-bottom: 30px;
 }
 
-.missions-page .text-icon{
+.missions-page .text-icon {
   margin-bottom: 5px;
 }
 
-.missions-page .main-link{
- line-height: 1.4;
+.link-position {
+  padding: 6px 4px;
+
+  font-weight: 500;
+  font-size: 13px;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #f68424;
+  border-radius: 8px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.75);
 }
 
-.missions-page .main-link::before{
-  width: 30px;height: 30px;
+.missions-page .main-link {
+  line-height: 1.4;
 }
 
-.missions-page .img-price{
+.missions-page .main-link::before {
+  width: 30px;
+  height: 30px;
+}
+
+.missions-page .img-price {
   max-width: none;
   flex-wrap: nowrap;
+}
 
+/* STYLES OF EARN MORE WITH TASKS */
+.tasks-page {
+padding-top: 20px;
+padding-bottom: 20px;
+
+  text-align: center;
+}
+
+.tasks-page .link-close {
+  margin-left: auto;
+}
+
+.tasks-page .leader-text {
+  margin-bottom: 5px;
+
+  font-size: 15px;
+
+  text-shadow: 0px 2px 2px rgb(77 73 73 / 77%);
+}
+
+.tasks-page .leader-text::before {
+  content: " ";
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+
+  display: block;
+
+  width: 55px;
+  height: 55px;
+
+  background-color: #827b7b;
+  box-shadow: 0px 1px 4px 1px rgb(64 61 61 / 75%) inset;
+  border-radius: 50%;
+}
+
+.tasks-page .leader-text-after {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+
+  max-width: 125px;
+
+  font-size: 5px;
+  line-height: 1.5;
+
+  color: #ffffff;
+
+  text-transform: uppercase;
+}
+
+.tasks-page .main-list {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.tasks-page .title-description {
+  margin-bottom: 30px;
+
+  font-size: 19px;
+
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 99%);
+  color: #ffffff;
+}
+
+.tasks-page .after-description {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+
+  max-width: 150px;
+
+  font-size: 5px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.tasks-page .button-contact {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 500;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #f68424;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 0px rgb(31 29 29 / 75%);
+}
+
+.tasks-page .tasks-list {
+  display: flex;
+  flex-wrap: wrap;
+          gap: 10px 20px;
+}
+
+.tasks-page .tasks-item {
+padding: 10px 5px;
+
+flex-basis: calc((100% - 20px) / 2);
+
+  background-color: #f68424;
+  border-radius: 5px;
+
+   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.77);
+}
+
+.tasks-page .tasks-link {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  text-transform: uppercase;
+       color: #ffffff;
 }
